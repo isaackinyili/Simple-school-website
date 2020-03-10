@@ -1,0 +1,159 @@
+body{ 
+	background-color: rgb(153,250,154); /*pale green*/
+}  
+    
+.navbar{
+	background-color: green;
+	height: 110px;
+	border-radius: 30px;
+} 
+.navbar ul{
+	margin: 0px; /*Set margin: 0; and padding: 0; to remove browser default settings*/
+	padding: 0px;
+	list-style-type: none; /*removes bulets in the unordered list*/
+}
+.navbar li{
+	float: right;
+	display: inline;
+}
+.navbar  li a{
+	display: inline-block; /* makes the whole link area clickable (not just the text) */
+	font-size: 40px;
+  	padding: 31px 13px;
+  	color: white;
+    text-align: center;
+    text-decoration: none; /* removes underlined link*/
+  	width: ; /* Gives the clicable area width*/
+
+ }
+.navbar li a:hover {
+    background-color: rgb(128,128,0);/*olive*/
+    border-radius: 30px;
+}
+
+.div1{
+	position: absolute; /*enables this div1 to stay on top od the divbar*/
+	height: 110px;
+	float: left;
+	width: 650px;
+	background-color: rgb(34,139,34); /*forest green*/
+	text-align: center;
+	border-radius: 25px;
+	font-family: trebuchet;
+} 
+/*
+.div1 h2:hover{
+	background-color: lightgreen;
+	font-family: trebuchet;
+	font-size: 70px;
+}
+ */
+   
+.div1 h2{
+	font-size: 60px;
+	padding: 0px;
+	margin: 0px;
+    color: white;
+} 
+.div1 p{
+	padding: 0px;
+	margin: 0px;
+	font-size: 35px;
+}
+.contact{
+	background-image: url(Pictures/contact.jpg);
+	height: 120px;
+	width: auto;
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
+.contact h4{
+	margin: 0px;
+	padding: 0px;
+	padding-top: 35px;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+}
+.contactarea{
+	height: 600px;
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: auto;
+	background-color: rgb(138,230,143);/*Light green*/
+}
+.contactdetails{
+	margin: 25px;
+	padding-top: 40px;
+	float: left;
+	width: 550px;
+	height: 480px;
+	background-color: rgb(138,220,153); /*something green*/
+	text-align: center;
+}
+.contactdetails h3{
+	font-size: 35px;
+}
+.contactdetails p{
+	font-size: 25px;
+}
+.contactform{
+	margin: 25px;
+	text-align: center;
+	padding-top: 40px;
+	width: 550px;
+	height: 480px;
+	float: right;
+	background-color: rgb(138,220,153); /*something green*/
+}
+.contactform form{
+	font-size: 25px;
+
+}
+.contactform button{
+	background-color: #4CAF50;
+	font-size: 25px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+.socialmedia ul{
+	margin: 0px; /*Set margin: 0; and padding: 0; to remove browser default settings*/
+	padding: 0px;
+	list-style-type: none; /*removes bulets in the unordered list*/
+}
+.socialmedia li{
+	display: inline;
+
+}
+.socialmedia li a{
+	width: 326.5px;
+	text-decoration: none;
+	display: inline-block; /* makes the whole link area clickable (not just the text) */
+	margin: 0px;
+	background-color: rgb(128,128,0);/*olive*/
+	border-radius: 10px;
+}
+.socialmedia a:hover{
+	background-color: rgb(0,255,0); /*Brings a lime back ground color when you hover on the contents*/;
+}
+.footer p{
+	color: white;
+	margin: 0px;
+	padding: 5px;
+}
+.footer{
+	text-align: center;
+	height: 80px;
+	background-color: rgb(46,179,113); /*mediumseagreen*/
+
+}
+

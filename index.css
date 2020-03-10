@@ -1,0 +1,83 @@
+
+body{ 
+	background-color: rgb(153,250,154); /*pale green*/
+}  
+    
+.navbar{
+	background-color: green;
+	height: 110px;
+	border-radius: 30px;
+} 
+.navbar ul{
+	margin: 0px; /*Set margin: 0; and padding: 0; to remove browser default settings*/
+	padding: 0px;
+	list-style-type: none; /*removes bulets in the unordered list*/
+}
+.navbar li{
+	float: right;
+	display: inline;
+}
+.navbar  li a{
+	display: inline-block; /* makes the whole link area clickable (not just the text) */
+	font-size: 40px;
+  	padding: 31px 13px;
+  	color: white;
+    text-align: center;
+    text-decoration: none; /* removes underlined link*/
+  	width: ; /* Gives the clicable area width*/
+
+ }
+.navbar li a:hover {
+    background-color: rgb(128,128,0);/*olive*/
+    border-radius: 30px;
+}
+
+.div1{
+	position: absolute; /*enables this div1 to stay on top od the divbar*/
+	height: 110px;
+	float: left;
+	width: 650px;
+	background-color: rgb(34,139,34); /*forest green*/
+	text-align: center;
+	border-radius: 25px;
+	font-family: trebuchet;
+} 
+/*
+.div1 h2:hover{
+	background-color: lightgreen;
+	font-family: trebuchet;
+	font-size: 70px;
+}
+ */
+   
+.div1 h2{
+	font-size: 60px;
+	padding: 0px;
+	margin: 0px;
+    color: white;
+} 
+.div1 p{
+	padding: 0px;
+	margin: 0px;
+	font-size: 35px;
+}
+.div2{
+	background: url(Pictures/freedomentrance.jpg);
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	height: 600px;
+	width: auto;
+	padding-top: 0px;
+}
+.footer p{
+	color: white;
+	margin: 0px;
+	padding: 5px;
+}
+.footer{
+	text-align: center;
+	height: 80px;
+	background-color: rgb(46,179,113); /*mediumseagreen*/
+
+}
