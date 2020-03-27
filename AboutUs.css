@@ -1,0 +1,198 @@
+body{ 
+	background-color: rgb(153,250,154); /*pale green*/
+}  
+    
+.navbar{
+	background-color: green;
+	height: 110px;
+	border-radius: 30px;
+} 
+.navbar ul{
+	margin: 0px; /*Set margin: 0; and padding: 0; to remove browser default settings*/
+	padding: 0px;
+	list-style-type: none; /*removes bulets in the unordered list*/
+}
+.navbar li{
+	float: right;
+	display: inline;
+}
+.navbar  li a{
+	display: inline-block; /* makes the whole link area clickable (not just the text) */
+	font-size: 40px;
+  	padding: 31px 13px;
+  	color: white;
+    text-align: center;
+    text-decoration: none; /* removes underlined link*/
+  	width: ; /* Gives the clicable area width*/
+
+ }
+.navbar li a:hover {
+    background-color: rgb(128,128,0);/*olive*/
+    border-radius: 30px;
+}
+
+.div1{
+	position: absolute; /*enables this div1 to stay on top od the divbar*/
+	height: 110px;
+	float: left;
+	width: 650px;
+	background-color: rgb(34,139,34); /*forest green*/
+	text-align: center;
+	border-radius: 25px;
+	font-family: trebuchet;
+} 
+/*
+.div1 h2:hover{
+	background-color: lightgreen;
+	font-family: trebuchet;
+	font-size: 70px;
+}
+ */
+   
+.div1 h2{
+	font-size: 60px;
+	padding: 0px;
+	margin: 0px;
+    color: white;
+} 
+.div1 p{
+	padding: 0px;
+	margin: 0px;
+	font-size: 35px;
+}
+.about{
+	background-image: url(Pictures/contact.jpg);
+	height: 120px;
+	width: auto;
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
+.about h4{
+	margin: 0px;
+	padding: 0px;
+	padding-top: 35px;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+}
+.ourstory{
+	background-color: rgb(153,250,154); /*pale green*/
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+.ourstory h3{
+	text-align: center;
+	font-size: 26px;
+	margin: 0px;
+	padding: 0px;
+}
+.ourstory p{
+    text-align: justify; /*stretches the lines so that each line has equal width
+                           (like in newspapers and magazines)*/
+    padding-top: 0px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 20px;
+}
+.mv{
+	background-color: rgb(153,250,154); /*pale green*/
+	height: 220px;
+	padding: 0px;
+	margin: 0px;
+}
+.mission{
+	margin-left: 5px;
+	margin-right: 15px;
+	background-color: rgb(153,250,154); /*pale green*/
+	float: left;
+	height: 200px;
+	width: 620px;
+}
+.mission h3{
+	font-size: 26px;
+	text-align: center;
+	}
+.mission p{	
+	text-align: justify;
+	font-size: 20px;
+}
+.vision{
+	background-color: rgb(153,250,154); /*pale green*/
+	float: left;
+	height: 200px;
+	width: 650px;
+}
+.vision h3{
+	font-size: 26px;
+	text-align: center;
+}
+.vision p{
+	padding-top: 0px;
+	text-align: justify;
+	font-size: 20px;
+}
+.corevalues{
+	height: 300px;
+	float: left;
+	background-color: rgb(153,250,154); /*pale green*/
+	width: 100%;
+}
+.corevalues h3{
+	text-align: center;
+	font-size: 26px;
+}
+.respect{
+	height: 300px;
+	width: 400px;
+	float: left;
+	font-size: 20px;
+	padding: 3px;
+	margin: 5px;
+
+}
+.honesty{
+	height: 300px;
+	width: 430px;
+	float: left;
+	font-size: 20px;
+	padding: 3px;
+	margin: 5px;
+
+}
+.discipline{
+	height: 300px;
+	width: 430px;
+	float: left;
+	font-size: 20px;
+	padding: 3px;
+	margin: 5px;
+
+}
+.courses{
+	height: 550px;
+	width: 100%;
+	background-color: rgb(153,265,131); 
+
+}
+.courses h2{
+	font-size: 32px;
+	text-align: center;
+}
+.courses ul{
+	margin-left: 400px;
+	font-size: 22px;
+}
+.footer p{
+	color: white;
+	margin: 0px;
+	padding: 5px;
+}
+.footer{
+	text-align: center;
+	height: 80px;
+	background-color: rgb(46,179,113); /*mediumseagreen*/
+
+}
